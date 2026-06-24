@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*filter: blur(1px);*/
+    position: relative;
+    background-color: rgba(127, 225, 255, 0.251);
+}
+header{
+    height: 10vh;
+    width: 100vw;
+    position: relative;
+    line-height: 10vh;
+    color: white;
+    background-color: cornflowerblue;
+    text-align: center;
+    letter-spacing: 5px;
+}
+header a{
+    display: block;
+    color:azure;
+    background:lightblue;
+    border:0;
+    height: 6vh;
+    width: 10vw;
+    line-height: 6vh;
+    position: absolute;
+    right: 5vw;
+    top: 2vh;
+    text-decoration: none;
+    border-radius: 3vh;
+    transition: all .5s;
+}
+header a:hover{
+    text-shadow: 0 0 10px whitesmoke;
+    background-color: darkblue;
+}
+aside{
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 20vw;
+    height: 90vh;
+    background-color: cornflowerblue;
+}
+aside ul{
+    height: 88vh;
+    width: 20vw;
+    margin-top: 2vh;
+}
+aside ul li{
+    height: 5vh;
+    width: 20vw;
+    border: 1px springgreen solid;
+    text-align: center;
+    line-height: 5vh;
+    margin-top: 10px;
+}
+aside ul li:hover{
+    cursor: pointer;
+    background-color: rgb(41, 108, 232);
+}
+aside ul li a{
+    color:white;
+    text-decoration: none;
+}
+main{
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    width: 70vw;
+    height: 90vh;
+    background-color:aliceblue;
+}
